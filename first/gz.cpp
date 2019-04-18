@@ -35,7 +35,7 @@ int zeidelIteration(TParams params);
 int deinitMethod(TParams params);
 int getData(TParams params);
 
-int PrintMatrix(double *Matrix, int N) {
+void PrintMatrix(double *Matrix, int N) {
   for (int r = 0; r < N; r++) {
     for (int s = 0; s < N; s++)
     {
