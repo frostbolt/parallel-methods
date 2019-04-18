@@ -74,6 +74,8 @@ int main(int argc, char *argv[])
   params.matrixWidth = N;
   params.matrixHeight = N;
   params.delta = 0.1;
+
+  // TODO: FIXME. NEED TO IMPLEMENT MATRIX INITIALIZATION
   params.mainMatrix = new double [params.matrixWidth * params.matrixHeight];
 
   GZ_Par(N, params);  
